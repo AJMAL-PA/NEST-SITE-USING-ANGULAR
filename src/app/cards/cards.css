@@ -1,0 +1,23 @@
+.card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: none !important;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 100%;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, 0.2);
+    }
+
+    .card-img-top {
+      height: 160px !important;
+      object-fit: cover;
+    }
+
+    h1.text-center {
+      color: black !important;
+    }
+    .industries-section {
+      background-color: #f2f4f7;
+    }

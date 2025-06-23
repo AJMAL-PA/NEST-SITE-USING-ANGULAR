@@ -1,0 +1,57 @@
+ body {
+      background-color: #a0cee4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .contact-heading {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .contact-card {
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      padding: 35px;
+      background-color: #bacde0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .form-control, .btn {
+      border-radius: 0.5rem;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+    }
+
+   .info-section p {
+      margin-bottom: 15px;
+    }
+
+    .contact-section {
+      padding-top: 50px;
+      padding-bottom: 60px;
+    }
+
+    .map-container {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+   .btn-primary:hover {
+      background-color: #0056b3;
+    }
+
+    .info-section h5 {
+      margin-top: 20px;
+      font-weight: 600;
+    }

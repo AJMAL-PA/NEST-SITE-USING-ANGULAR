@@ -1,0 +1,43 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .hero-banner {
+      background: url('https://img.freepik.com/free-vector/cyber-security-concept_23-2148532223.jpg') no-repeat center center;
+      background-size: cover;
+      padding: 120px 20px;
+      color: white;
+      text-align: center;
+    }
+    .hero-banner h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .section-title {
+      font-weight: 600;
+      margin-bottom: 30px;
+      color: #1a1a1a;
+    }
+    .feature-icon {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 15px;
+    }
+    .card-style {
+      background-color: white;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+    .card-style:hover {
+      transform: translateY(-5px);
+    }
+    .cta-section {
+      background-color: #002b5c;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 12px;
+      margin-top: 50px;
+    }
